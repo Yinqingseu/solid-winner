@@ -1,0 +1,146 @@
+html{width:100%;height:100%}
+html,body,p,div,ul,li
+{
+margin:0;
+padding:0;
+}
+body {
+font-size:14px;
+color:#314566;
+text-align:center;
+/*background:#fff url(../image/wufanqi.jpg) no-repeat center top;
+margin-top:120px;*/
+}
+a img
+{
+border:0px;
+}
+
+body #indextop
+{
+height:278px;
+background:#fff;
+width:960px;
+padding-top:22px;
+margin:0 auto;
+margin-top:10px;
+}
+#indextopad
+{
+width:980px;
+height:80px;
+margin:0 auto;
+}
+#indexbody
+{
+margin:0px auto;
+width:960px;
+background:#fff;
+padding:10px 0px;
+}
+#newsbox #news {
+	background-image: url(../images/laba.gif);
+	background-repeat: no-repeat;
+	width: 800px;
+	margin-top: 0px;
+	margin-right: auto;
+	margin-bottom: 0px;
+	margin-left: auto;
+	padding-left: 160px;
+	height: 45px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+#newsbox #news ul {
+	margin-left: 20px;
+}
+#newsbox #news a {
+	font-family: "΢���ź�", "����";
+	font-size: 16px;
+	line-height: 24px;
+	color:#e60;
+	text-decoration: none;
+}
+#newsbox #news a:hover{
+	text-decoration:underline;
+	
+color: #263062;
+}
+#newsbox {
+	text-align: left;
+	background-color: #eee;
+	height: 65px;
+	margin-top: 10px;
+	margin-right: auto;
+	margin-bottom: 0px;
+	margin-left: auto;
+}
+
+#indexbody a
+{
+color:#314566;
+text-decoration:none;
+}
+#indexbody a:hover
+{
+color:#CC0000;
+text-decoration:underline;
+}
+.col
+{
+	width:180px;
+	text-align:left;
+	padding-left:23px;;
+	padding-top:72px;
+	padding-bottom:2em;
+	float:left;
+	margin-right:20px;
+	display:inline;
+	border:1px solid #ccc;
+	line-height:2em;
+	overflow:hidden;
+	margin-top:13px;
+}
+.col p,#colsfsb p
+{
+	background:url(../img/indexli.gif) no-repeat left 6px;
+	padding-left:20px;
+}
+#col1
+{
+	background:url(../img/index_col1.gif) no-repeat;
+}
+#col2
+{
+	background:url(../img/index_col2.gif) no-repeat;
+}
+#col3
+{
+	background:url(../img/index_col3.jpg) no-repeat;
+}
+#col4
+{
+	background:url(../img/index_col4.gif) no-repeat;
+}
+
+#colsfsb
+{
+text-align:left;
+	padding-bottom:2em;
+	padding-left:23px;
+	line-height:2em;
+	border:1px solid #ccc;
+	padding-top:21px;
+	width:252px;
+	border-top:none;
+}
+
+#indexfooter
+{
+	background:#4a72a6;
+	color:#fff;
+	font-family: "Times New Roman", Times, serif, "����";
+	line-height:30px;
+
+	
+}

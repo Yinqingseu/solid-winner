@@ -1,0 +1,100 @@
+
+
+#slideshow ul,ol,li{list-style:none;margin:0px;}
+
+.clearfloat{height:0;font-size:1px;clear:both;line-height:0;}
+
+a{color:#333; text-decoration:none}
+a:hover{color:#c00;text-decoration:underline }
+
+A.skin_button:hover {
+    BACKGROUND: url(../images/skin_button_left-hover.png) no-repeat left top; COLOR: #ffffff
+}
+A.skin_button:hover SPAN {
+    BACKGROUND: url(../images/skin_button_right-hover.png) no-repeat right top
+}
+A.nav_button {
+    BORDER-TOP-WIDTH: 0px; DISPLAY: inline-block; FONT-WEIGHT: bold; BORDER-LEFT-WIDTH: 0px; FONT-SIZE: 11px; BACKGROUND: url(../images/nav_button_left.png) no-repeat left top; BORDER-BOTTOM-WIDTH: 0px; MARGIN: 0px 10px 0px 0px; WIDTH: auto; COLOR: #767676; HEIGHT: 20px; BORDER-RIGHT-WIDTH: 0px; TEXT-DECORATION: none
+}
+A.nav_button:hover {
+    BORDER-TOP-WIDTH: 0px; DISPLAY: inline-block; FONT-WEIGHT: bold; BORDER-LEFT-WIDTH: 0px; FONT-SIZE: 11px; BACKGROUND: url(../images/nav_button_left.png) no-repeat left top; BORDER-BOTTOM-WIDTH: 0px; MARGIN: 0px 10px 0px 0px; WIDTH: auto; COLOR: #767676; HEIGHT: 20px; BORDER-RIGHT-WIDTH: 0px; TEXT-DECORATION: none
+}
+A.nav_button .active {
+    BORDER-TOP-WIDTH: 0px; DISPLAY: inline-block; FONT-WEIGHT: bold; BORDER-LEFT-WIDTH: 0px; FONT-SIZE: 11px; BACKGROUND: url(../images/nav_button_left.png) no-repeat left top; BORDER-BOTTOM-WIDTH: 0px; MARGIN: 0px 10px 0px 0px; WIDTH: auto; COLOR: #767676; HEIGHT: 20px; BORDER-RIGHT-WIDTH: 0px; TEXT-DECORATION: none
+}
+A.nav_button:hover .active {
+    BORDER-TOP-WIDTH: 0px; DISPLAY: inline-block; FONT-WEIGHT: bold; BORDER-LEFT-WIDTH: 0px; FONT-SIZE: 11px; BACKGROUND: url(../images/nav_button_left.png) no-repeat left top; BORDER-BOTTOM-WIDTH: 0px; MARGIN: 0px 10px 0px 0px; WIDTH: auto; COLOR: #767676; HEIGHT: 20px; BORDER-RIGHT-WIDTH: 0px; TEXT-DECORATION: none
+}
+A.nav_button SPAN {
+    PADDING-RIGHT: 6px; DISPLAY: inline-block; PADDING-LEFT: 3px; FONT-WEIGHT: bold; BACKGROUND: url(../images/nav_button_right.png) no-repeat right top; PADDING-BOTTOM: 2px; MARGIN: 0px 0px 0px 4px; PADDING-TOP: 2px; HEIGHT: 17px
+}
+A.nav_button:hover SPAN {
+    PADDING-RIGHT: 6px; DISPLAY: inline-block; PADDING-LEFT: 3px; FONT-WEIGHT: bold; BACKGROUND: url(../images/nav_button_right.png) no-repeat right top; PADDING-BOTTOM: 2px; MARGIN: 0px 0px 0px 4px; PADDING-TOP: 2px; HEIGHT: 17px
+}
+A.nav_button:hover {
+    BACKGROUND: url(../images/nav_button_left-hover.png) no-repeat left top; CURSOR: pointer; COLOR: #197b30
+}
+A.nav_button:hover SPAN {
+    BACKGROUND: url(../images/nav_button_right-hover.png) no-repeat right top
+}
+A.active.nav_button {
+    BACKGROUND: url(../images/nav_button_left-active.png) no-repeat left top; COLOR: #ffffff
+}
+A.active.nav_button:hover {
+    BACKGROUND: url(../images/nav_button_left-active.png) no-repeat left top; COLOR: #ffffff
+}
+A.active.nav_button SPAN {
+    PADDING-RIGHT: 6px; DISPLAY: inline-block; PADDING-LEFT: 3px; FONT-WEIGHT: bold; BACKGROUND: url(../images/nav_button_right-active.png) no-repeat right top; PADDING-BOTTOM: 2px; MARGIN: 0px 0px 0px 4px; PADDING-TOP: 2px; HEIGHT: 17px
+}
+A.active.nav_button:hover SPAN {
+    PADDING-RIGHT: 6px; DISPLAY: inline-block; PADDING-LEFT: 3px; FONT-WEIGHT: bold; BACKGROUND: url(../images/nav_button_right-active.png) no-repeat right top; PADDING-BOTTOM: 2px; MARGIN: 0px 0px 0px 4px; PADDING-TOP: 2px; HEIGHT: 17px
+}
+A.prev_button {
+    DISPLAY: block; BACKGROUND: url(../images/prev_button.png) no-repeat right top; FLOAT: left; MARGIN: 0px 10px 0px 0px; WIDTH: 20px; TEXT-INDENT: -9999px; HEIGHT: 20px
+}
+A.prev_button:hover {
+    DISPLAY: block; BACKGROUND: url(../images/prev_button.png) no-repeat right top; FLOAT: left; MARGIN: 0px 10px 0px 0px; WIDTH: 20px; TEXT-INDENT: -9999px; HEIGHT: 20px
+}
+A.prev_button:hover {
+    BACKGROUND: url(../images/prev_button-hover.png) no-repeat right top
+}
+A.next_button {
+    DISPLAY: block; BACKGROUND: url(../images/next_button.png) no-repeat right top; FLOAT: left; MARGIN: 0px 10px 0px 0px; WIDTH: 20px; TEXT-INDENT: -9999px; HEIGHT: 20px
+}
+A.next_button:hover {
+    DISPLAY: block; BACKGROUND: url(../images/next_button.png) no-repeat right top; FLOAT: left; MARGIN: 0px 10px 0px 0px; WIDTH: 20px; TEXT-INDENT: -9999px; HEIGHT: 20px
+}
+A.next_button:hover {
+    BACKGROUND: url(../images/next_button-hover.png) no-repeat right top
+}
+.content_slider {
+    WIDTH: 1004px; POSITION: relative; margin:0px auto;
+}
+.content_slider .item {
+    BACKGROUND: url(../img/content_slider-bg.gif) repeat-x left bottom; PADDING: 0px; WIDTH: 1004px;
+}
+.content_slider .item .p1{ width:318px; float:left; display:inline; margin-right:10px; height:228px; padding:2px; border:1px solid #ccc;}
+.content_slider .item .p1 img{ width:100%; height:100%;}
+.content_slider .item  h1{ font-size:22px; padding:10px 0;}
+.content_slider .item  p{ line-height:22px; font-size:14px;}
+.content_slider .slider_nav {
+    Z-INDEX: 1000; RIGHT: 10px; BOTTOM: 10px; POSITION: absolute
+}
+.content_slider .slider_nav UL {
+    FLOAT: left
+}
+.content_slider .slider_nav LI {
+    FLOAT: left
+}
+A.activeSlide.nav_button {
+    BACKGROUND: url(../images/nav_button_left-active.png) no-repeat left top; COLOR: #ffffff
+}
+A.activeSlide.nav_button:hover {
+    BACKGROUND: url(../images/nav_button_left-active.png) no-repeat left top; COLOR: #ffffff
+}
+A.activeSlide.nav_button SPAN {
+    PADDING-RIGHT: 6px; DISPLAY: inline-block; PADDING-LEFT: 3px; FONT-WEIGHT: bold; BACKGROUND: url(../images/nav_button_right-active.png) no-repeat right top; PADDING-BOTTOM: 2px; MARGIN: 0px 0px 0px 4px; PADDING-TOP: 2px; HEIGHT: 17px
+}
+A.activeSlide.nav_button:hover SPAN {
+    PADDING-RIGHT: 6px; DISPLAY: inline-block; PADDING-LEFT: 3px; FONT-WEIGHT: bold; BACKGROUND: url(../images/nav_button_right-active.png) no-repeat right top; PADDING-BOTTOM: 2px; MARGIN: 0px 0px 0px 4px; PADDING-TOP: 2px; HEIGHT: 17px
+}
